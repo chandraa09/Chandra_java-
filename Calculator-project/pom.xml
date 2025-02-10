@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>chandra.pratice.devops</groupId>
+    <groupId>chandra_dev</groupId>
     <artifactId>Calculator</artifactId>
     <version>1.0-SNAPSHOT</version>
 
@@ -24,11 +24,11 @@
          <distributionManagement>
     <repository>
         <id>nexusrelease</id>
-        <url>http://172.21.238.54:8082/repository/test-chandra-release/</url>
+        <url>http://172.25.200.104:8081/repository/chandra_release//</url>
     </repository>
     <snapshotRepository>
         <id>nexussnapshot</id>
-        <url>http://172.21.238.54:8082/repository/test-chandra-snapshot</url>
+        <url>http://172.25.200.104:8081/repository/chandra_snapshot</url>
     </snapshotRepository>
 </distributionManagement>
 </project>
